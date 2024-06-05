@@ -20,7 +20,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
 
 
     document.getElementById('messageContainer').style.display = 'block';
-    document.getElementById('messageContainer').innerHTML = 'Anh biết là em sẽ đồng ý làm người yêu anh mà<33';
+    document.getElementById('messageContainer').innerHTML = 'Em biết là em sẽ đồng ý làm người yêu Em mà<33';
 
 
     setTimeout(function() {
@@ -81,7 +81,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
 
         case 2:
            
-            document.getElementById('noBtn').innerHTML = 'Em không đồng ý';
+            document.getElementById('noBtn').innerHTML = 'Anh không đồng ý';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
             document.getElementById('sadGifContainer').style.display = 'none';
             document.getElementById('sadGifContainer2').style.display = 'none';
@@ -118,7 +118,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
         case 5:
            
-            document.getElementById('noBtn').innerHTML = 'Em không chịu đâu';
+            document.getElementById('noBtn').innerHTML = 'Anh không chịu đâu';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
 
@@ -140,7 +140,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
         case 7:
            
-            document.getElementById('noBtn').innerHTML = 'Em xin thua!';
+            document.getElementById('noBtn').innerHTML = 'Anh xin thua!';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
 
